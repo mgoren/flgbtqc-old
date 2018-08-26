@@ -13,7 +13,7 @@ h1 {
 	color: #003300;
 }
 
-div.photos {
+.photos {
   width: 560px;
   margin: 20px;
 	margin-left: auto;
@@ -21,26 +21,22 @@ div.photos {
 	text-align: center;
 }
 
-div.photos img {
+.photos img {
   width: 560px;
   margin-bottom: 20px;
 }
 
-div.content {
+.content {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-div.content-section {
+.content-section {
   margin: 40px 20px 40px 20px;
 }
 
-@media screen and (max-width: 575px) {
-  body {
-    background-color: lightblue;
-  }
-
+@media screen and (max-width: 768px) {
   .photos {
     width: 90%;
   }

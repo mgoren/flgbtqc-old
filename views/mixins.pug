@@ -1,4 +1,5 @@
 //- Navbar mixins
+//- Hamburger menu relies on jquery & bootstrapjs
 mixin nav(name)
   nav.navbar.navbar-expand-lg.navbar-light.bg-light( role="navigation" )
     a.navbar-brand(href="/")= name
@@ -12,3 +13,13 @@ mixin nav_item(name, url)
   li.nav-item(class=(name === navbar_title || name === title ? "active" : "")): a.nav-link( href=url )
     =name
 //- End navbar mixins
+
+//- Image header mixin
+mixin image_header(url, alt)
+  header
+    .photos
+      figure
+        img(src=url alt=alt)
+        figcaption
+          block
+//- End image header mixin
