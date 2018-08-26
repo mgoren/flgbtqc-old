@@ -1,0 +1,14 @@
+//- Navbar mixins
+mixin nav(name)
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light( role="navigation" )
+    a.navbar-brand(href="/")= name
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarSupportedContent.collapse.navbar-collapse
+      ul.navbar-nav.mr-auto
+        block
+
+mixin nav_item(name, url)
+  li.nav-item(class=(name === navbar_title || name === title ? "active" : "")): a.nav-link( href=url )
+    =name
+//- End navbar mixins

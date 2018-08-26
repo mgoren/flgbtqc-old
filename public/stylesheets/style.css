@@ -1,0 +1,51 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1 {
+  font-size: 1.5em;
+	font-family: tahoma, arial, helvetica, sans-serif;
+	color: #003300;
+}
+
+div.photos {
+  width: 560px;
+  margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+div.photos img {
+  width: 560px;
+  margin-bottom: 20px;
+}
+
+div.content {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.content-section {
+  margin: 40px 20px 40px 20px;
+}
+
+@media screen and (max-width: 575px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .photos {
+    width: 90%;
+  }
+
+  .photos img {
+    width: 100%;
+  }
+}

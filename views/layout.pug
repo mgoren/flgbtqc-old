@@ -1,0 +1,17 @@
+include mixins
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css", integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO", crossorigin="anonymous")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(name='description' content='Friends for Lesbian, Gay, Bisexual, Transgender, and Queer Concerns')
+  body
+    .container
+      +nav("FLGBTQC")
+        +nav_item( "Home", "/" )
+        +nav_item( "About", "/about" )
+        +nav_item( "Gatherings", "/gatherings" )
+        +nav_item( "Outreach/Resources", "/resources" )
+        +nav_item( "Contact", "/contact" )
+      block content
