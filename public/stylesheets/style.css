@@ -11,6 +11,12 @@ h1 {
   font-size: 1.5em;
 	font-family: tahoma, arial, helvetica, sans-serif;
 	color: #003300;
+  margin-bottom: .7em;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .photos {

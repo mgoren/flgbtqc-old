@@ -22,4 +22,12 @@ router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact' });
 });
 
+router.get('/resources/listfaq', function(req, res, next) {
+  res.render('resources/listfaq', { title: 'Email List FAQ' });
+});
+
+router.get('/resources/each_of_us_inevitable', function(req, res, next) {
+  res.render('resources/each_of_us_inevitable', { title: 'Each of Us Inevitable' });
+});
+
 module.exports = router;
