@@ -10,3 +10,4 @@
 * Fix any broken links
 * Add epistles & minutes to resources page (click title to expand)
 * Different pix on each page
+* Move photos to dropbox or elsewhere (for speed)
