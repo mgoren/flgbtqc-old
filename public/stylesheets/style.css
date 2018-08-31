@@ -29,7 +29,11 @@ h2 {
 
 .photos img {
   width: 560px;
-  margin-bottom: 20px;
+  height: 420px;
+}
+
+figcaption {
+  margin-top: 20px;
 }
 
 .content {

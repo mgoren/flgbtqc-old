@@ -30,4 +30,8 @@ router.get('/resources/each_of_us_inevitable', function(req, res, next) {
   res.render('resources/each_of_us_inevitable', { title: 'Each of Us Inevitable' });
 });
 
+router.get('/resources/donate', function(req, res, next) {
+  res.render('resources/donate', { title: 'Donate' });
+});
+
 module.exports = router;
