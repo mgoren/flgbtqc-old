@@ -2,7 +2,6 @@
 
 * Instructions for subscribing to newsletter
 * Is newsletter subscriptions still a job?
-* Address for donations
 * Check all info is up to date
 
 # TO DO
