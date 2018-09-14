@@ -34,4 +34,12 @@ router.get('/resources/donate', function(req, res, next) {
   res.render('resources/donate', { title: 'Donate' });
 });
 
+router.get('/resources/marriageminutes', function(req, res, next) {
+  res.render('resources/marriageminutes', { title: 'Marriage Minutes' });
+});
+
+router.get('/resources/transminutes', function(req, res, next) {
+  res.render('resources/transminutes', { title: 'Transgender Minutes' });
+});
+
 module.exports = router;
