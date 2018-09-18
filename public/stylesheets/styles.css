@@ -50,13 +50,22 @@ figcaption {
   display: none;
 }
 
+.close {
+  margin-top: -18px;
+  font-weight: lighter;
+}
+
 .well {
   background-color: yellow;
   border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
 }
 
-.minute h6, .minute p {
-  padding: 10px;
+.expanded h6 {
+  font-weight: bold;
+  padding-top: 15px;
 }
 
 @media screen and (max-width: 768px) {
