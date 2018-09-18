@@ -42,4 +42,8 @@ router.get('/resources/transminutes', function(req, res, next) {
   res.render('resources/transminutes', { title: 'Transgender Minutes' });
 });
 
+router.get('/resources/epistles', function(req, res, next) {
+  res.render('resources/epistles', { title: 'Epistles' });
+});
+
 module.exports = router;
