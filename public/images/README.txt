@@ -1,1 +1,0 @@
-(Images served up from Mike's dropbox account.)

@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 var random_header_image = function() {
-  var all_images = ["eaoko7i6aucw79k/pic11.jpg", "eaoko7i6aucw79k/pic11.jpg", "dsrh77eypwg27sv/horiz-cabaret.jpg", "k61kdtpf96e2jsb/horiz-couch.jpg", "lod0l2sh6sy4u5f/horiz-outdoors1.jpg", "ztr1vp636crweiu/horiz-outdoors2.jpg", "d9t31g6z8d64q6q/horiz-outdoors3.jpg", "7wrpqtalykrav7e/horiz-phones.jpg", "elleyakhdfs5o37/horiz-talk.jpg", "isjwpz07g0dd7jm/vert-veil1.jpg", "ms7q2v56kz3t1sn/vert-veil2.jpg"]
-  return "http://dl.dropboxusercontent.com/s/" + all_images[Math.floor(Math.random() * all_images.length)];
+  var all_images = ["pic11.jpg", "horiz-cabaret.jpg", "horiz-couch.jpg", "horiz-outdoors1.jpg", "horiz-outdoors2.jpg", "horiz-outdoors3.jpg", "horiz-phones.jpg", "horiz-talk.jpg", "vert-veil1.jpg", "vert-veil2.jpg"]
+  return "/images/" + all_images[Math.floor(Math.random() * all_images.length)];
 }
 
 /* GET home page. */
