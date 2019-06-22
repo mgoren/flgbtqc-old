@@ -1,3 +1,8 @@
+const path = require('path');
+const auth = require('http-auth');
+
+const basic = auth.basic({ file: path.join(__dirname, '../users.htpasswd') });
+
 var express = require('express');
 var router = express.Router();
 
@@ -50,5 +55,13 @@ router.get('/resources/transminutes', function(req, res, next) {
 router.get('/resources/epistles', function(req, res, next) {
   res.render('resources/epistles', { title: 'Epistles' });
 });
+
+router.get('/minutes', function(req, res, next) {
+  res.render('minutes', { title: '2018 Minutes' });
+});
+
+// router.get('/private', auth.connect(basic), function(req, res, next) {
+//   res.render('private', { title: 'Private' });
+// });
 
 module.exports = router;
