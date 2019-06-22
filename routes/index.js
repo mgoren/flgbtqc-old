@@ -1,7 +1,7 @@
-const path = require('path');
-const auth = require('http-auth');
+// const path = require('path');
+// const auth = require('http-auth');
 
-const basic = auth.basic({ file: path.join(__dirname, '../users.htpasswd') });
+// const basic = auth.basic({ file: path.join(__dirname, '../users.htpasswd') });
 
 var express = require('express');
 var router = express.Router();
