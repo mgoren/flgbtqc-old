@@ -60,6 +60,10 @@ router.get('/minutes', function(req, res, next) {
   res.render('minutes', { title: '2018 Minutes' });
 });
 
+router.get('/midwinter2021', function(req, res, next) {
+  res.render('midwinter2021', { title: 'Mid-Winter Gathering 2021' });
+});
+
 // router.get('/private', auth.connect(basic), function(req, res, next) {
 //   res.render('private', { title: 'Private' });
 // });
